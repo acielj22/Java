@@ -1,0 +1,23 @@
+Challenge 1:
+Create a class Car using the UML provided in the UML Car.PNG file. (Remember to create a separate file that must have the exact same name as the class name, i.e., Car.java). Make the class have a function honk() that says "Beep Beep!"
+public class Car {
+    private String brand;
+    private String model;
+    private String color;
+    private int year;
+    private double value;
+
+Challenge 2:
+Create two car objects and store them in separate variables.
+public Car(String brand, String model, String color, int year, double value) {
+        this.brand = brand;
+        this.model = model;
+        this.color = color;
+        this.year = year;
+        this.value = value;
+Challenge 3:
+Display to the console the brand, model and value of each car.
+Make the ist car honk.
+
+Bonus:
+Display the brand and model of any car that has a value over 30,000. (You need to get that information from the object itself to determine the value.)
